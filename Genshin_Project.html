@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Genshin Project</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Genshin_Project.css" />
+</head>
+
+<body>
+    <div class="main" id="main_page">   
+        <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------- -->       
+        <!-- DIV para a Página Inicial de Builds -->
+        <div id="pagina_builds_css">
+            <div>
+                <img id="Fundo_Inicial" src="Imagens\Fundo_Inicial.png">
+                <img id="Circulo_Builds" src="Imagens\Circulo_Builds.png">
+                <a href="#"><img id="Pyro_Off" onmouseover="Pyro_Passada()" onmouseout="Pyro_Saida()" onclick="Pyro_Click()" src="Imagens\Elementos\Pyro.png"></a>
+                <a href="#"><img id="Anemo_Off" onmouseover="Anemo_Passada()" onmouseout="Anemo_Saida()" onclick="Anemo_Click()" src="Imagens\Elementos\Anemo.png"></a>
+                <a href="#"><img id="Hidro_Off" onmouseover="Hidro_Passada()" onmouseout="Hidro_Saida()" onclick="Hidro_Click()" src="Imagens\Elementos\Hidro.png"></a>
+                <a href="#"><img id="Electro_Off" onmouseover="Electro_Passada()" onmouseout="Electro_Saida()" onclick="Electro_Click()" src="Imagens\Elementos\Electro.png"></a>
+                <a href="#"><img id="Cryo_Off" onmouseover="Cryo_Passada()" onmouseout="Cryo_Saida()"  onclick="Cryo_Click()" src="Imagens\Elementos\Cryo.png"></a>
+                <a href="#"><img id="Geo_Off" onmouseover="Geo_Passada()" onmouseout="Geo_Saida()" onclick="Geo_Click()" src="Imagens\Elementos\Geo.png"></a>
+                <img id="Dendro_Off" src="Imagens\Elementos\Dendro.png">
+
+                <a href="#"><img id="Pyro_On" onclick="Pyro_Click()" src="Imagens\Elementos\Pyro_On.png"></a> 
+                <a href="#"><img id="Anemo_On" onclick="Anemo_Click()" src="Imagens\Elementos\Anemo_On.png"></a>
+                <a href="#"><img id="Hidro_On" onclick="Hidro_Click()" src="Imagens\Elementos\Hidro_On.png"></a>
+                <a href="#"><img id="Electro_On" onclick="Electro_Click()" src="Imagens\Elementos\Electro_On.png"></a>
+                <a href="#"><img id="Cryo_On" onclick="Cryo_Click()" src="Imagens\Elementos\Cryo_On.png"></a>
+                <a href="#"><img id="Geo_On" onclick="Geo_Click()" src="Imagens\Elementos\Geo_On.png"></a>
+            </div>
+
+            <div id="menu_description">
+                <h3 style="margin-top: 0px">Escolha o Elemento</h3>
+                <p style="font-size: 18px"> Ache seu personagem de <br> acordo com o elemento para <br> encontrar sua build</p>
+            </div>
+        </div>
+        <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+        <!-- DIV para a Página Inicial de Armas -->
+        <div id="pagina_armas_css">
+            <div id="menu_description">
+                <h3>Escolha um Armamento</h3>
+                <p style="font-size: 18px"> Veja as propriedades das armas e <br> seus efeitos separados por tipo de <br> arma.</p>
+            </div>
+
+            <div>
+                <a href="#"><img id="sword" src="Imagens\Armas\Armas_Pagina\Sword.png"></a>
+                <a href="#"><img id="claymore" src="Imagens\Armas\Armas_Pagina\Claymore.png"></a>
+                <a href="#"><img id="bow" src="Imagens\Armas\Armas_Pagina\Bow.png"></a>
+                <a href="#"><img id="lance" src="Imagens\Armas\Armas_Pagina\Lance.png"></a>
+                <a href="#"><img id="catalist" src="Imagens\Armas\Armas_Pagina\Catalist.png"></a>
+            </div>
+        </div>
+        <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------- -->     
+        <!-- DIV para a Página Inicial de Artefatos -->
+        <div id="pagina_artefatos_css">
+            <img id="Fundo_Inicial" src="Imagens\Fundo_Inicial.png">
+            
+            <div id="menu_description">
+                <h3>Escolha um Artefato</h3>
+                <p style="font-size: 18px"> Veja os efeitos de 2 e 4 peças <br> dos artefatos separados por <br> suas Utilitdades.</p>
+            </div>
+
+            <div id="Pagina_Artefatos_Ataque">
+                <div id="Borda_Inferior">
+                    <div id="Artefatos_Box">
+                        <img style="width: 85px;" src="Imagens/Artefatos/Flor_Reminescencia.png">
+                        <img style="width: 85px;" src="Imagens/Artefatos/Flor_Chama_Palida.png">
+                        <img style="width: 85px;" src="Imagens/Artefatos/Flor_Gladiador.png">
+                        <img style="width: 85px;" src="Imagens/Artefatos/Flor_Cavaleiro_De_Sangue.png">
+                    </div>
+                </div>
+
+                <div id="Borda_Superior">
+                    <P id="Superior_Word1">Ataque</P>
+                </div>
+
+            </div>
+
+            <div id="Pagina_Arfatos_Defesa"> 
+                <div id="Borda_Inferior">
+                    <div id="Artefatos_Box">
+                        <img style="width: 85px;" src="Imagens/Artefatos/Flor_Meteoro_Invertido.png">
+                        <img style="width: 85px;" src="Imagens/Artefatos/Flor_Lavawalker.png">
+                        <img style="width: 85px;" src="Imagens/Artefatos/Flor_Lançador_De_Trovoes.png">
+                        <img style="width: 85px;" src="Imagens/Artefatos/Flor_Guardiao.png">
+                    </div>
+                </div>
+
+                <div id="Borda_Superior">
+                    <p id="Superior_Word2">Defesa</p>
+                </div>
+
+            </div>
+
+            <div id="Pagina_Artefatos_Elemental">
+                <div id="Borda_Inferior">
+                    <div id="Artefatos_Box">
+                        <img style="width: 85px;" src="Imagens/Artefatos/Flor_Insulacao.png">
+                        <img style="width: 85px;" src="Imagens/Artefatos/Flor_Profundezas.png">
+                        <img style="width: 85px;" src="Imagens/Artefatos/Flor_Heroi_Invernal.png">
+                        <img style="width: 85px;" src="Imagens/Artefatos/Flor_Trovao_Furioso.png">
+                    </div>
+                </div>
+
+                <div id="Borda_Superior">
+                    <p id="Superior_Word3">Elemental</p>
+                </div>
+            </div>
+
+            <div id="Pagina_Artefatos_Suporte">
+                <div id="Borda_Inferior">
+                    <div id="Artefatos_Box">
+                        <img style="width: 85px;" src="Imagens/Artefatos/Flor_Millelith.png">
+                        <img style="width: 85px;" src="Imagens/Artefatos/Flor_Donzela.png">
+                        <img style="width: 85px;" src="Imagens/Artefatos/Flor_Sombra_Verde.png">
+                        <img style="width: 85px;" src="Imagens/Artefatos/Flor_Pedra_Arcaica.png">
+                    </div>
+                </div>
+
+                <div id="Borda_Superior">
+                    <p id="Superior_Word4">Suporte</p> 
+                </div>
+            </div>
+        </div>
+        <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------- -->     
+        <!-- DIV para a Rodapé -->
+        <div id="pagina_rodape_css">
+           <p style="text-align:center; color: darkslategrey;">Desenvolvido por: <br> Hyhickle Umetsubo - Front-End Developer <br> Pedro Zanchin - Front-End Developer <br> Rodrigo Carlos - UX Designer</p>
+        </div>
+        <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+        <!-- DIV para a Menu de Seleção (Builds, Armas, Artefatos) -->
+        <div id="menu">
+            <a id="builds_button" onmouseover="builds_passada()" onmouseout="builds_saida()" onclick="builds_click()" href="#pagina_builds_css">Builds</a>
+            <a id="armas_button" onmouseover="armas_passada()" onmouseout="armas_saida()" onclick="armas_click()"href="#pagina_armas_css">Armas</a>
+            <a id="artefatos_button" onmouseover="artefatos_passada()" onmouseout="artefatos_saida()"onclick="artefatos_click()" href="#pagina_artefatos_css">Artefatos</a>
+        </div>
+
+        <script type="text/javascript" src="Genshin_Project.js"></script>
+    </div>
+</body>
+
+</html>
+
+
