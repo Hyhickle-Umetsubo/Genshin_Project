@@ -27,7 +27,7 @@ html{
     position: absolute;
     width: 84px;
     height: 23px;
-    left: 591px;
+    left: 40%;
     top: 11px;
     text-decoration: none;
     font-size: 30px;
@@ -38,7 +38,7 @@ html{
     position: absolute;
     width: 91px;
     height: 28px;
-    left: 872px;
+    left: 60%;
     top: 11px;
     text-decoration: none;
     font-size: 30px;
@@ -49,7 +49,7 @@ html{
     position: absolute;
     width: 129px;
     height: 28px;
-    left: 1161px;
+    left: 80%;
     top: 11px;
     text-decoration: none;
     font-size: 30px;
@@ -68,64 +68,64 @@ html{
     position: absolute;
     width: 80px;
     height: 80px;
-    left: 878px;
-    top: 143px;
+    left: calc(48% + 230px);
+    top: 140px;
 }
 #Anemo_Off{
     position: absolute;
     width: 80px;
     height: 80px;
-    left: 1026px;
+    left: calc(48% + 377px);
     top: 215px;    
 }
 #Electro_Off{
     position: absolute;
     width: 80px;
     height: 80px;
-    left: 1058px;
+    left: calc(48% + 408px);
     top: 365px;
 }
 #Cryo_Off{
     position: absolute;
     width: 80px;
     height: 80px;
-    left: 798px;
+    left: calc(48% + 148px);
     top: 484px;
 }
 #Geo_Off{
     position: absolute;
     width: 80.77px;
     height: 80px;
-    left: 704px;
+    left: calc(48% + 53px);
     top: 365px;
 }
 #Hidro_Off{
     position: absolute;
     width: 80px;
     height: 80px;
-    left: 736px;
+    left: calc(48% + 85px);
     top: 215px;
 }
 #Dendro_Off{
     position: absolute;
     width: 80px;
     height: 80px;
-    left: 964px;
+    left: calc(48% + 315px);
     top: 484px; 
 }
 #Pyro_On{
     position: absolute;
     width: 80px;
     height: 80px;
-    left: 878px;
-    top: 143px;
+    left: calc(48% + 230px);
+    top: 140px;
     display: none;
 }
 #Anemo_On{
     position: absolute;
     width: 80px;
     height: 80px;
-    left: 1026px;
+    left: calc(48% + 377px);
     top: 215px;    
     display: none;   
 }
@@ -133,7 +133,7 @@ html{
     position: absolute;
     width: 80px;
     height: 80px;
-    left: 1058px;
+    left: calc(48% + 408px);
     top: 365px;
     display: none;
 }
@@ -141,7 +141,7 @@ html{
     position: absolute;
     width: 80px;
     height: 80px;
-    left: 798px;
+    left: calc(48% + 148px);
     top: 484px;
     display: none;
 }
@@ -149,7 +149,7 @@ html{
     position: absolute;
     width: 80.77px;
     height: 80px;
-    left: 704px;
+    left: calc(48% + 53px);
     top: 365px;
     display: none;
 }
@@ -157,7 +157,7 @@ html{
     position: absolute;
     width: 80px;
     height: 80px;
-    left: 736px;
+    left: calc(48% + 85px);
     top: 215px;
     display: none;
 }
@@ -165,35 +165,35 @@ html{
     position: absolute;
     width: 104px;
     height: 300px;
-    left: 695px;
+    left: 51%;
     top: 217px;
 }
 #claymore{
     position: absolute;
     width: 104px;
     height: 300px;
-    left: 799px;
+    left: calc(51% + 104px);
     top: 217px;
 }
 #bow{
     position: absolute;
     width: 105px;
     height: 300px;
-    left: 903px;
+    left: calc(51% + 208px);
     top: 217px;
 }
 #lance{
     position: absolute;
     width: 104px;
     height: 300px;
-    left: 1008px;
+    left: calc(51% + 312px);
     top: 217px;
 }
 #catalist{
     position: absolute;
     width: 104px;
     height: 300px;
-    left: 1112px;
+    left: calc(51% + 416px);
     top: 217px;
 }
 #pagina_builds_css{
@@ -238,7 +238,7 @@ html{
     position: absolute;
     width: 540px;
     height: 540px;
-    left: 650px;
+    left: 48%;
     top: 95px;
 }
 #Artefatos_Box{
@@ -248,30 +248,22 @@ html{
 }
 #Pagina_Artefatos_Ataque{
     position: absolute;
-    width: 292px;
-    height: 240px;
-    left: 625px;
+    left: 46%;
     top: 110px;
 }
 #Pagina_Arfatos_Defesa{
     position: absolute;
-    width: 292px;
-    height: 240px;
-    left: 625px;
+    left: 46%;
     top: 375px;
 }
 #Pagina_Artefatos_Elemental{
     position: absolute;
-    width: 292px;
-    height: 240px;
-    left: 943px;
+    left: calc(46% + 320px);
     top: 110px;
 }
 #Pagina_Artefatos_Suporte{
     position: absolute;
-    width: 292px;
-    height: 240px;
-    left: 943px;
+    left: calc(46% + 320px);
     top: 375px; 
 }
 #Borda_Inferior{
@@ -336,11 +328,11 @@ html{
 
 #Barra_Elementos{
     position: absolute;
-    width: 99%;
+    width: 90%;
     height: 100px;
-    top: 120px;
-
+    top: 80px;
     border-radius: 60px;
+    left: 5%;
 }
 
 #Barra_Elementos_Circulo{
@@ -349,3 +341,180 @@ html{
     height: 80px;
     top: 10px;
 }
+
+@media only screen and (max-width: 1175px){
+    #builds_button{
+        left: 20%;
+    }
+    #armas_button{
+        left: 40%;
+    }
+    #artefatos_button{
+        left: 60%;
+    }
+    #Circulo_Builds{
+        width: 440px;
+        height: 440px;
+        left: calc(50% - 440px/2);
+        top: 250px;
+    }   
+    #Pyro_Off{
+        width: 63px;
+        height: 63px;
+        left: calc(50% - 32px);
+        top: 288px;
+    }
+    #Anemo_Off{
+        width: 63px;
+        height: 63px;
+        left: calc(50% + 88px);
+        top: 348px;
+    }
+    #Electro_Off{
+        width: 63px;
+        height: 63px;
+        left: calc(50% + 113px);
+        top: 472px;
+    }
+    #Dendro_Off{
+        width: 63px;
+        height: 63px;
+        left: calc(50% + 38px);
+        top: 568px;
+    }
+    #Cryo_Off{
+        width: 63px;
+        height: 63px;
+        left: calc(50% - 98px);
+        top: 567px;
+    }
+    #Geo_Off{
+        width: 63px;
+        height: 63px;
+        left: calc(50% - 175px);
+        top: 472px;
+    }
+    #Hidro_Off{
+        width: 63px;
+        height: 63px;
+        left: calc(50% - 149px);
+        top: 347px;
+    }
+    #Pyro_On{
+        width: 63px;
+        height: 63px;
+        left: calc(50% - 32px);
+        top: 288px;
+    }
+    #Anemo_On{
+        width: 63px;
+        height: 63px;
+        left: calc(50% + 88px);
+        top: 348px;
+    }
+    #Electro_On{
+        width: 63px;
+        height: 63px;
+        left: calc(50% + 113px);
+        top: 472px;
+    }
+    #Cryo_On{
+        width: 63px;
+        height: 63px;
+        left: calc(50% - 98px);
+        top: 567px;
+    }
+    #Geo_On{
+        width: 63px;
+        height: 63px;
+        left: calc(50% - 175px);
+        top: 472px;
+    }
+    #Hidro_On{
+        width: 63px;
+        height: 63px;
+        left: calc(50% - 149px);
+        top: 347px;
+    }
+    #menu_description{
+        margin-top: 80px;
+        margin-left: calc(50% - 120px);
+        text-align: center;
+    }
+    #sword{
+        width: 80px;
+        height: 276px;
+        left: calc(50% - 200px);
+        top: 315px;
+    }
+    #claymore{
+        width: 80px;
+        height: 276px;
+        left: calc(50% - 120px);
+        top: 315px;
+    }
+    #bow{
+        width: 80px;
+        height: 276px;
+        left: calc(50% - 80px/2);
+        top: 315px;
+    }
+    #lance{
+        width: 80px;
+        height: 276px;
+        left: calc(50% + 40px);
+        top: 315px;
+    }
+    #catalist{
+        width: 80px;
+        height: 276px;
+        left: calc(50% + 120px);
+        top: 315px;
+    }
+    #Artefatos_Box{
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+    #Pagina_Artefatos_Ataque{
+        left: calc(50% - 230px);
+        top: 260px;
+    }
+    #Pagina_Arfatos_Defesa{
+        left: calc(50% - 230px);
+        top: 470px;
+    }
+    #Pagina_Artefatos_Elemental{
+        left: calc(50%);
+        top: 260px;
+    }
+    #Pagina_Artefatos_Suporte{
+        left: calc(50%);
+        top: 470px;
+    }
+    #Borda_Inferior{
+        width: 215px;
+        height: 160px;
+    }
+    #Borda_Superior{
+        width: 215px;
+        height: 40px;
+    }
+    #Superior_Word1{
+        left: 90px;
+        font-size: 16px;
+    }
+    #Superior_Word2{
+        left: 90px;
+        font-size: 16px;
+    }
+    #Superior_Word3{ 
+        left: 80px;
+        font-size: 16px;
+    }
+    #Superior_Word4{
+        left: 80px;
+        font-size: 16px;
+    }
+}
+
+
