@@ -333,3 +333,19 @@ html{
     line-height: 10px;
     color: #000000;
 }
+
+#Barra_Elementos{
+    position: absolute;
+    width: 99%;
+    height: 100px;
+    top: 120px;
+
+    border-radius: 60px;
+}
+
+#Barra_Elementos_Circulo{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 10px;
+}
